@@ -9,18 +9,22 @@
   padding: 10px;
   border-bottom: 1px seashell;
 }
-.header .nav {
-  display: inline-flex;
+.navigation {
   justify-content: flex-end;
-  align-items: center;
-  flex-basis: 100px;
-
-  padding: 20px;
 }
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 69px;
+}
+.features-link {
+}
+
 .header .logo {
   display: inline-flex;
   justify-items: flex-start;
   align-items: center;
+  flex-basis: 100px;
 }
 .header .a {
   color: seashell;
