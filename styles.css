@@ -32,11 +32,23 @@
   text-decoration: underline;
 }
 /*Revisit the header section -- Alignment not quite right*/
+
 /*MISSION SECTION*/
+#mission {
+  max-height: 700px;
+}
 .mission-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 700px;
+  min-height: 400px;
   width: 100%;
+}
+
+/*TEA OF THE MONTH SECTION*/
+.tom-img {
+  display: inline-flex;
+}
+img {
+  max-height: 200px;
 }
