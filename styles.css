@@ -1,3 +1,4 @@
+/*HEADER SECTION*/
 .header {
   display: inline-flex;
   position: fixed;
@@ -5,7 +6,7 @@
   left: 0;
   width: 100%;
   background-color: black;
-  height: 69px;
+  min-height: 69px;
   padding: 10px;
   border-bottom: 1px seashell;
 }
@@ -29,4 +30,13 @@
 .header .a {
   color: seashell;
   text-decoration: underline;
+}
+/*Revisit the header section -- Alignment not quite right*/
+/*MISSION SECTION*/
+.mission-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
+  width: 100%;
 }
