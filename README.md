@@ -1,1 +1,1 @@
-# TeaCozySite
+# Tea Cozy Site from Codecademy
