@@ -1,0 +1,28 @@
+.header {
+  display: inline-flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  height: 69px;
+  padding: 10px;
+  border-bottom: 1px seashell;
+}
+.header .nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-basis: 100px;
+
+  padding: 20px;
+}
+.header .logo {
+  display: inline-flex;
+  justify-items: flex-start;
+  align-items: center;
+}
+.header .a {
+  color: seashell;
+  text-decoration: underline;
+}
