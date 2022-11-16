@@ -83,3 +83,9 @@ img {
   justify-content: space-around;
   align-items: center;
 }
+/* LOCATIONS SECTION */
+.location-container {
+  display: inline-flex;
+  justify-content: center;
+}
+/* CAN'T GET LOCATION CONTAINERS TO CENTER IN SECTION */
