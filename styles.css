@@ -75,14 +75,27 @@ h4 {
 /* Not sure how to format the text bit in the middle of the mission-container... */
 
 /*TEA OF THE MONTH SECTION*/
-.tom-img {
+.tom-container {
   display: inline-flex;
-}
-img {
-  max-height: 200px;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
 }
+.tom-img {
+  text-align: justify;
+  max-width: 300px;
+}
+.tom-img img {
+  display: block;
+  margin: 0 auto;
+  max-height: 200px;
+  max-width: 300px;
+}
+.tom-img p {
+  text-align: center;
+}
+
 /* LOCATIONS SECTION */
 .location-container {
   display: inline-flex;
