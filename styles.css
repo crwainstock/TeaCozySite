@@ -1,7 +1,7 @@
 /*HEADER SECTION*/
 .header {
   display: inline-flex;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -35,16 +35,21 @@
 
 /*MISSION SECTION*/
 #mission {
-  max-height: 700px;
+  height: 700px;
+  width: 1200px;
   background-image: url("./img-mission-background.jpg");
 }
+/*image opacity*/
+
 .mission-container {
   display: flex;
-  justify-content: center;
   align-items: center;
-  min-height: 700px;
+  justify-items: center;
+  height: auto;
   width: 1200px;
+  background-color: black;
 }
+/* Not sure how to format the text bit in the middle... */
 
 /*TEA OF THE MONTH SECTION*/
 .tom-img {
