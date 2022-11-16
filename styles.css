@@ -1,3 +1,18 @@
+body {
+  background-color: black;
+}
+h2 {
+  color: seashell;
+  text-align: center;
+}
+
+h4 {
+  color: seashell;
+  text-align: center;
+}
+p {
+  color: seashell;
+}
 /*HEADER SECTION*/
 .header {
   display: inline-flex;
