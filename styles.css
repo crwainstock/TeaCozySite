@@ -13,6 +13,7 @@ h4 {
 p {
   color: seashell;
 }
+
 /*HEADER SECTION*/
 .header {
   display: inline-flex;
@@ -23,7 +24,8 @@ p {
   background-color: black;
   min-height: 69px;
   padding: 10px;
-  border-bottom: 1px seashell;
+  border: 1px seashell;
+  /* border not working */
 }
 .navigation {
   justify-content: flex-end;
@@ -50,9 +52,12 @@ p {
 
 /*MISSION SECTION*/
 #mission {
+  display: block;
+
   height: 700px;
   width: 1200px;
   background-image: url("./img-mission-background.jpg");
+  margin: 0% auto;
 }
 /*image opacity*/
 
@@ -72,4 +77,6 @@ p {
 }
 img {
   max-height: 200px;
+  justify-content: space-around;
+  align-items: center;
 }
