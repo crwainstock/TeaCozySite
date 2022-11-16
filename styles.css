@@ -81,6 +81,7 @@ h4 {
   align-items: center;
   flex-wrap: wrap;
   max-width: 1000px;
+  padding: 100px;
 }
 .tom-img {
   text-align: justify;
