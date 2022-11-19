@@ -101,7 +101,6 @@ ul {
   margin: 0;
   padding: 10px;
 }
-/* Not sure how to format the text bit in the middle of the mission-container... */
 
 /*TEA OF THE MONTH SECTION*/
 .tom-container {
@@ -110,7 +109,15 @@ ul {
   align-items: center;
   flex-wrap: wrap;
   max-width: 1000px;
-  padding: 100px;
+  padding: 25px 100px 100px 100px;
+}
+#tea-of-month h2 {
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+#tea-of-month h4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 .tom-img {
   text-align: justify;
