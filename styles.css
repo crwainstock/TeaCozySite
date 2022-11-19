@@ -5,6 +5,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: seashell;
   opacity: 0.9;
+  font-size: 22px;
 }
 h2 {
   display: block;
@@ -16,12 +17,9 @@ h2 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
-/*Need to update the H2 and H4 sizes. They're currently too small.*/
+
 h4 {
   text-align: center;
-}
-p {
-  font-size: 22px;
 }
 
 /*HEADER SECTION*/
