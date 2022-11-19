@@ -100,7 +100,10 @@ ul {
   margin: 0;
   padding: 10px;
 }
-
+.mission-container-text h4 {
+  margin: 0;
+  padding: 10px;
+}
 /*TEA OF THE MONTH SECTION*/
 .tom-container {
   display: inline-flex;
