@@ -65,7 +65,7 @@ ul {
   height: 50px;
   padding: 10px;
 }
-.header .a {
+.navigation a {
   color: seashell;
   text-decoration: underline;
 }
