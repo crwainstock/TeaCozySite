@@ -78,7 +78,6 @@ ul {
   background-image: url("./img-mission-background.jpg");
   margin: 0% auto;
 }
-/*image opacity*/
 
 .mission-container {
   display: flex;
@@ -134,8 +133,36 @@ ul {
 }
 
 /* LOCATIONS SECTION */
-.location-container {
-  display: inline-flex;
+#locations {
+  display: flex;
   justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-image: url("./img-locations-background.jpg");
+  min-height: 500px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+#locations h2 {
+  padding: 0 30px;
+  margin: 0;
+}
+.location-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.location-panel {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  padding: 25px 0 0 0;
+  opacity: 1;
+  width: 300px;
+  background-color: black;
+  text-align: center;
 }
 /* CAN'T GET LOCATION CONTAINERS TO CENTER IN SECTION */
