@@ -107,12 +107,13 @@ ul {
 /*TEA OF THE MONTH SECTION*/
 /*Update images to be closer together in second row*/
 .tom-container {
-  display: inline-flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
   max-width: 1000px;
-  padding: 25px 100px 50px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  padding-bottom: 80px;
 }
 #tea-of-month h2 {
   margin-top: 80px;
@@ -125,6 +126,8 @@ ul {
 .tom-img {
   text-align: justify;
   max-width: 300px;
+  padding: 0;
+  margin: 15px;
 }
 .tom-img img {
   display: block;
